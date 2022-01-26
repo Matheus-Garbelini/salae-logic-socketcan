@@ -1,0 +1,13 @@
+{
+  "name": "SocketCAN",
+  "apiVersion": "1.0.0",
+  "author": "Matheus Eduardo Garbelini",
+  "version": "0.0.1",
+  "description": "Send decoded can frames to socket can",
+  "extensions": {
+    "SocketCAN": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.Hla"
+    }
+  }
+}
